@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/allouis/codebar-feedback/issues"
   },
-  "homepage": "https://github.com/allouis/codebar-feedback"
+  "homepage": "https://github.com/allouis/codebar-feedback",
+  "dependencies": {
+    "mongoose": "~3.8.18"
+  }
 }
