@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/allouis/codebar-feedback",
   "dependencies": {
-    "mongoose": "~3.8.18"
+    "mongoose": "~3.8.18",
+    "router": "~0.6.2"
   }
 }
