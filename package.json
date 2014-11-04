@@ -4,7 +4,8 @@
   "description": "feedback application for codebar",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "PORT=8000 ./node_modules/nodemon/bin/nodemon.js ./index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/allouis/codebar-feedback",
   "dependencies": {
     "mongoose": "~3.8.18",
-    "router": "~0.6.2"
+    "router": "~0.6.2",
+    "nodemon": "~1.2.1"
   }
 }
