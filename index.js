@@ -1,8 +1,8 @@
 var http = require('http');
-var handleRequest = require('./handleRequest');
+var router = require('./lib/router');
 
 var server = http.createServer();
-server.on('request', handleRequest);
+server.on('request', router.handleRequest);
 
 if (!module.parent) {
   server.listen(process.env.PORT);
